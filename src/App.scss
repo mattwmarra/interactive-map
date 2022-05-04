@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  ul {
+    flex: 0.3;
+    height: 100vh;
+  }
+  svg {
+    flex: 0.7;
+  }
+}
+
+svg {
+  fill:aqua;
+}
+
+.state {
+  stroke: grey;
+  stroke-width: 0.05rem;
+  fill: whitesmoke;
+  transition: all 0.2s ease-out;
+}
+
+.active {
+  fill: coral;
+}
+
+.state-list {
+  list-style: none;
+  overflow-y: scroll;
+  button {
+    width: 100%;
+    padding: 0.6rem;
+  }
+}
+
