@@ -4,62 +4,90 @@ $food: #DEEDC8;
 $conference-room: #F9D19C; 
 $services: #B2E2F6;
 $office: #F69FAE;
+
+$font-small: .4rem;
 .App {
   padding: 1rem;
 }
 
 main {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   section {
     border-left: 0.2rem solid lightgray;
     flex: 0.3;
     text-align: center;
     ul {
-      height: 50vh;
+		columns: 3;
+      height: 20vh;
       overflow-y: scroll;
     }
   }
   svg {
-    flex: 0.7;
     width: 100%;
     min-height: 100%;
   }
 }
 
+@mixin setBGColorAndHover ($baseColor){
+    fill: darken($color: $baseColor, $amount: 15);
+}
 .st0{fill:none;}
 	.st1{font-family:'ArialMT';}
 	.st2{font-size:10.4064px;}
 	.st3{fill:#EDEDED;}
 	.st4{font-size:20.7004px;}
-	.st5{fill:$office}
-	.st6{fill:$services}
-	.st7{fill:$conference-room}
-	.st8{fill:$food}
+
+	.office{
+		fill:$office;
+		transition: all .2s ease-out;
+		+ .active {
+			@include setBGColorAndHover($office);
+		}
+	} //st5
+	.service{
+		fill:$services;
+		transition: all .2s ease-out; 
+		+ .active {
+			@include setBGColorAndHover($services);
+		}
+	} //st6
+	.conference-room{
+		fill:$conference-room; 
+		transition: all .2s ease-out; 
+		+ .active {
+			@include setBGColorAndHover($conference-room);
+		}} 
+	.food{
+		fill:$food;
+		+ .active {
+			@include setBGColorAndHover($food);
+		}
+	}
+
 	.st9{fill:none;stroke:#000000;stroke-width:3.1072;stroke-miterlimit:10;}
 	.st10{fill:none;stroke:#000000;stroke-miterlimit:10;}
 	.st11{stroke:#000000;stroke-width:0.5;}
 	.st12{fill:#D27328;}
 	.st13{font-size:12px;}
-	.st14{font-size:6.7135px;}
-	.st15{font-size:6.6962px;}
-	.st16{font-size:7.8323px;}
-	.st17{font-size:7.2729px;}
-	.st18{font-size:6.1148px;}
-	.st19{font-size:4.8275px;}
-	.st20{font-size:5.2349px;}
-	.st21{font-size:6.7134px;}
-	.st22{font-size:6.9931px;}
-	.st23{font-size:6.7942px;}
+	.st14{font-size:$font-small}
+	.st15{font-size:$font-small;}
+	.st16{font-size:$font-small;}
+	.st17{font-size:$font-small;}
+	.st18{font-size:$font-small;}
+	.st19{font-size:$font-small;}
+	.st20{font-size:$font-small;}
+	.st21{font-size:$font-small;}
+	.st22{font-size:$font-small;}
+	.st23{font-size:$font-small;}
 	.st24{font-size:15.3158px;}
-	.st25{font-size:6.6966px;}
-	.st26{font-size:6.4386px;}
-	.st27{font-size:6.4366px;}
-	.st28{font-size:5.3985px;}
-	.st29{font-size:5.4711px;}
+	.st25{font-size:$font-small;}
+	.st26{font-size:$font-small;}
+	.st27{font-size:$font-small;}
+	.st28{font-size:$font-small;}
+	.st29{font-size:$font-small;}
 	.st30{font-family:'Arial-BoldMT';}
-	.st31{font-size:5.8742px;}
+	.st31{font-size:$font-small;}
 	.st32{font-size:8.5144px;}
 	.st33{fill:#E28229;}
 	.st34{font-size:5.4085px;}
@@ -85,11 +113,6 @@ main {
   fill: whitesmoke;
   transition: all 0.2s ease-out;
 }
-
-.active {
-  fill: $primary-color;
-}
-
 .state-list {
   list-style: none;
   button {

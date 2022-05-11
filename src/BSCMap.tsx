@@ -102,108 +102,153 @@ export const BSCMap = () => {
         </g>
         <g></g>
         <polygon
-          className="st5"
+          className="office"
           points="1067.6,338.3 1067.6,388.3 1008.9,388.8 1008.9,379.2 864.7,379.2 864.4,342.2 1008.9,342.2 
 		1008.9,328.3 1060.2,328.3 1060.2,338.3 	"
         />
         <path
-          className="st5"
+          className="office"
           d="M240.5,528.1v20.5c0,0-8.5,1.8-13.6,3.6v-24.1L240.5,528.1z"
         />
         <path
-          className="st5"
+          className="office"
           d="M519,235.2H494v-10.5l-60.7-0.1v0.1l-54.3-0.1l-0.1,10.9l-46-0.1v19.2l61.9,0.3l0.2,36.4c0,0,21.6-8,38.4-9.4
 		v-0.2c12.9-1.7,29.9-1.8,29.9-1.8l19.7-7.5c5.8,5.3,12.9,4.5,12.9,4.5c10.1-1.9,11.7-9.4,11.7-9.4c2.5-7.4-3.7-12.5-3.7-12.5
 		l15.3-15.8L519,235.2L519,235.2z"
         />
         <path
-          className="st5"
+          className="office"
           d="M319.4,529.2v-15.6h-21.6v14.5l-17.8,0l-0.2,0.1l-14.3-0.1v19.5l9.8,2.5c2.5,0.7,6.9,2.8,6.9,2.8l10.8,6.4
 		c11.6-17.1,26.5-16.8,26.5-16.8v-13.2H319.4z"
         />
-        <rect x="843.9" y="278.1" className="st5" width="49.1" height="50.8" />
+        <rect
+          x="843.9"
+          y="278.1"
+          className="office"
+          width="49.1"
+          height="50.8"
+        />
         <path
-          className="st5"
+          className="office"
           d="M660.9,471.9h79v26.3h-13.4v21.3l-29.1,10.1l-3.8,1.1c0,0-25.1,6.8-32.6,7.9V471.9z"
         />
         <polygon
-          className="st5"
+          className="office"
           points="579.1,537.1 579.1,510.6 600.4,510.6 600.4,471.9 660.9,471.9 660.9,538.6 647.5,540.5 628.5,540.7 
 		624.3,540.6 605.1,539.8 	"
         />
         <path
-          className="st5"
+          className="office"
           d="M903.1,510.1l-58.8,0c-0.4,0-0.9,0.1-1.3,0.1c0,0-3.5-0.2-7.2,2.8s-2.5,9.7-2.5,9.7c0.2,1.1,0.5,1.8,0.5,1.8
 		l2.8,9.8l-0.6,0.3l2.6,7.2h3.7h61L903.1,510.1L903.1,510.1z"
         />
         <polygon
-          className="st5"
+          className="office"
           points="793.7,498.1 793.7,461 877.4,461.5 877.4,498.2 	"
         />
         <polygon
-          className="st5"
+          className="office"
           points="843.9,207.8 874.2,207.8 874.2,265.5 866.5,265.3 864.4,265.3 843.9,265 	"
         />
         <polygon
-          className="st6"
+          className="service"
+          id="gre"
           points="909.6,461.3 877.4,461.5 877.4,498.2 877.4,510.1 939.9,510.1 939.8,537 946.1,540.2 948.9,544.3 
 		949.5,551.3 946.4,556.7 939.8,559.5 939.7,584.6 884.5,584.6 884.5,597.4 907.9,597.4 907.8,632.5 1055.3,632.5 1055.4,574 
 		1077.9,574 1077.9,461.3 	"
         />
         <path
-          className="st6"
+          className="service"
+          id="copyMail"
           d="M838.9,541.9l6.7,21.3l0.6,1.2l2.5,7.1l3.7,9.3c0,0,1.6,3.6,6.2,3.8h44.6l-0.2-42.7L838.9,541.9L838.9,541.9z"
         />
         <path
-          className="st6"
+          className="service"
+          id="catering"
           d="M907.8,632.5v-35l-38.7-0.2h-5.5v26.1c0,0-1.9,7.9-9.5,9.1H907.8z"
         />
         <path
-          className="st6"
+          className="service"
+          id="boxOffice"
           d="M903.1,510.1h36.8V537c0,0,10.2,2.8,9.8,11.6c0,0-0.3,9.8-9.9,10.9v25.1h-36.6L903.1,510.1z"
         />
         <polygon
-          className="st6"
+          className="service"
+          id="scosc"
           points="727.6,598.1 755.1,597.9 759.8,597.9 794.1,598 794.1,635.7 727.6,635.7 	"
         />
         <path
-          className="st6"
+          className="service"
+          id="atm"
           d="M579,537.3c-5.8-0.3-24.6-7.3-24.6-7.3v-19.5h24.4v17.7l0,0L579,537.3z"
         />
-        <rect x="769.9" y="314.6" className="st6" width="27.3" height="18" />
+        <rect
+          x="769.9"
+          y="314.6"
+          className="service"
+          width="27.3"
+          height="18"
+        />
         <polygon
-          className="st7"
+          className="conference-room"
+          id="orion"
           points="1008.9,233.4 1008.7,265.1 978.8,265.3 974.2,265.3 947,265.4 942.6,265.4 912.9,265.5 908.4,265.5 
 		905,265.5 874.6,265.5 874.6,207.5 910.6,207.5 910.6,233.4 	"
         />
         <polygon
-          className="st7"
+          className="conference-room"
+          id="andro"
           points="763.4,233.9 763.4,267.2 726.4,267.2 719.6,267.2 706.6,267.2 699.8,267.1 691.9,267 686,266.9 
 		657.9,266.8 652.1,266.8 629.5,266.6 629.5,233.9 	"
         />
         <polygon
-          className="st7"
+          className="conference-room"
+          id="ursaMin"
           points="793.4,343 793.4,378.9 726.4,378.9 726.4,379 629.1,379 629,277.6 650.3,277.7 660.7,277.7 
 		711.4,277.6 721.7,277.6 726.8,277.7 726.6,334 726.5,341.2 726.5,343 	"
         />
         <path
-          className="st7"
+          className="conference-room"
+          id="ursaMajor"
           d="M69.5,224.7V245h1.2l0,71.8l-1.2,0l0.1,19.3l57.4-0.1h10.5l51.7,0h53.1h48.9l0.3-2.9c0,0,0.8-4.6,2-7.7
 		l3.3-6.1c0,0,2.9-4.1,4.9-5.8l0.9-0.8c5.9-8.2,16.1-8.9,16.1-8.9v-67.3l-6.9,0.4v-12.2l-55.8,0.1l-5.3,0l-17.1,0l-61.3,0l-5.4-0.1
 		h-19.3L69.5,224.7L69.5,224.7z"
         />
         <path
-          className="st7"
+          className="conference-room"
+          id="lyra"
           d="M207.5,528v-13.5h-88.7v46.9h86.4h3.7c0,0,8.2-6.1,17.9-9.1v-24.1L207.5,528z"
         />
-        <path
-          className="st8"
+        <path // food court
+          className="food"
           d="M539.3,536.2v-35h-11.7v-29.9l-165,0.1v38.4h-28.1v33.1c0,0,11.2,0.6,16.3,10l11.3-7.8c0,0,8.2-5.1,16.3-9
 		l8.8-4.1c0,0,8.8-4,15.9-6l10-3.2c0,0,22.6-6,42.2-6.6l9.4-0.2c0,0,9.3,0.3,19.1,1.5l10.1,1.9c0,0,16.4,4.2,23.4,7.5l11.1,4.5
 		c0,0,2,0.8,4.8,2.1L539.3,536.2z"
         />
-        <polygon
-          className="st8"
+        <text transform="matrix(1 0 0 1 335.953 529.3906)" className="st1 st15">
+          {" "}
+          Saddles Café
+        </text>
+        <text
+          transform="matrix(1 0 0 1 377.1278 498.5537)"
+          className="st1 st15"
+        >
+          Subway
+        </text>
+        <text
+          transform="matrix(1 0 0 1 417.6054 498.5801)"
+          className="st1 st15"
+        >
+          Hibachi-San
+        </text>
+        <text
+          transform="matrix(1 0 0 1 472.7469 498.7617)"
+          className="st1 st15"
+        >
+          Qdoba
+        </text>
+        <polygon // round table
+          className="food"
           points="727.6,598.1 623.5,597.1 623.5,597.3 577,596.9 572,602 572,635.7 630.6,636.4 630.6,635.7 
 		727.6,635.7 	"
         />
@@ -1615,15 +1660,7 @@ export const BSCMap = () => {
         >
           Lower Rotunda
         </text>
-        <g>
-          <text
-            transform="matrix(1 0 0 1 335.953 529.3906)"
-            className="st1 st15"
-          >
-            {" "}
-            Saddles Café
-          </text>
-        </g>
+        <g></g>
         <text
           transform="matrix(1 0 0 1 173.9335 276.0166)"
           className="st1 st16"
@@ -2005,24 +2042,7 @@ export const BSCMap = () => {
             Management
           </text>
         </g>
-        <text
-          transform="matrix(1 0 0 1 377.1278 498.5537)"
-          className="st1 st15"
-        >
-          Subway
-        </text>
-        <text
-          transform="matrix(1 0 0 1 417.6054 498.5801)"
-          className="st1 st15"
-        >
-          Hibachi-San
-        </text>
-        <text
-          transform="matrix(1 0 0 1 472.7469 498.7617)"
-          className="st1 st15"
-        >
-          Qdoba
-        </text>
+
         <text
           transform="matrix(1 0 0 1 433.7733 544.1006)"
           className="st1 st15"
@@ -2429,15 +2449,6 @@ export const BSCMap = () => {
           </g>
         </g>
         <line className="st35" x1="410.3" y1="247.8" x2="467.9" y2="247.8" />
-        <text
-          transform="matrix(1 0 0 1 964.2289 167.2129)"
-          className="st1 st36"
-        >
-          BLDG. 35
-        </text>
-        <text transform="matrix(1 0 0 1 67.5604 124.7168)" className="st1 st37">
-          BRONCO STUDENT CENTER
-        </text>
         <g>
           <polyline
             className="st38"
@@ -2959,7 +2970,7 @@ export const BSCMap = () => {
           </text>
           <text
             transform="matrix(1 0 0 1 537.5781 628.3087)"
-            className="st46 st1 st50"
+            className="st46 st1 office0"
           >
             HERE
           </text>
