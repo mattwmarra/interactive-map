@@ -1,23 +1,84 @@
+$primary-color: #74b9ff;
+
+$food: #DEEDC8;
+$conference-room: #F9D19C; 
+$services: #B2E2F6;
+$office: #F69FAE;
 .App {
-  text-align: center;
+  padding: 1rem;
 }
 
 main {
   display: flex;
   flex-direction: row;
-  ul {
+  align-items: center;
+  section {
+    border-left: 0.2rem solid lightgray;
     flex: 0.3;
-    height: 100vh;
+    text-align: center;
+    ul {
+      height: 50vh;
+      overflow-y: scroll;
+    }
   }
   svg {
     flex: 0.7;
+    width: 100%;
+    min-height: 100%;
   }
 }
 
-svg {
-  fill:aqua;
-}
-
+.st0{fill:none;}
+	.st1{font-family:'ArialMT';}
+	.st2{font-size:10.4064px;}
+	.st3{fill:#EDEDED;}
+	.st4{font-size:20.7004px;}
+	.st5{fill:$office}
+	.st6{fill:$services}
+	.st7{fill:$conference-room}
+	.st8{fill:$food}
+	.st9{fill:none;stroke:#000000;stroke-width:3.1072;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st11{stroke:#000000;stroke-width:0.5;}
+	.st12{fill:#D27328;}
+	.st13{font-size:12px;}
+	.st14{font-size:6.7135px;}
+	.st15{font-size:6.6962px;}
+	.st16{font-size:7.8323px;}
+	.st17{font-size:7.2729px;}
+	.st18{font-size:6.1148px;}
+	.st19{font-size:4.8275px;}
+	.st20{font-size:5.2349px;}
+	.st21{font-size:6.7134px;}
+	.st22{font-size:6.9931px;}
+	.st23{font-size:6.7942px;}
+	.st24{font-size:15.3158px;}
+	.st25{font-size:6.6966px;}
+	.st26{font-size:6.4386px;}
+	.st27{font-size:6.4366px;}
+	.st28{font-size:5.3985px;}
+	.st29{font-size:5.4711px;}
+	.st30{font-family:'Arial-BoldMT';}
+	.st31{font-size:5.8742px;}
+	.st32{font-size:8.5144px;}
+	.st33{fill:#E28229;}
+	.st34{font-size:5.4085px;}
+	.st35{fill:none;stroke:#B22029;stroke-width:0.5;stroke-miterlimit:10;}
+	.st36{font-size:44.4361px;}
+	.st37{font-size:107.3329px;}
+	.st38{fill:none;stroke:#070707;}
+	.st39{font-size:21.3806px;}
+	.st40{fill:#141414;}
+	.st41{font-size:12.6501px;}
+	.st42{fill:#070707;}
+	.st43{display:none;}
+	.st44{display:inline;}
+	.st45{fill:#C52D27;}
+	.st46{display:inline;fill:#FFFFFF;}
+	.st47{font-size:2.9025px;}
+	.st48{font-size:4.5957px;}
+	.st49{font-size:3.7654px;}
+	.st50{font-size:5.9619px;}
 .state {
   stroke: grey;
   stroke-width: 0.05rem;
@@ -26,15 +87,25 @@ svg {
 }
 
 .active {
-  fill: coral;
+  fill: $primary-color;
 }
 
 .state-list {
   list-style: none;
-  overflow-y: scroll;
   button {
     width: 100%;
-    padding: 0.6rem;
+    padding: 0.9rem;
+    border: 0px;
+    border-bottom: 2px solid darken($color: $primary-color, $amount: 10);
+    font-size: 1.2rem;
+    text-align: left;
+    background-color: $primary-color;
+    color: white;
+    cursor: pointer;
+    transition: all .2s ease-out;
+    &:hover {
+      background-color: darken($color: $primary-color, $amount: 4)
+    }
   }
 }
 

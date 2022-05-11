@@ -3,7 +3,6 @@ export const Map = () => {
       <svg
          height="589px"
          viewBox="0 0 1000 589"
-         width="1000px"
          id="svg">
          <path
             id="MA"

@@ -20,16 +20,19 @@ export const StateList = () => {
    };
 
    return (
-      <ul className='state-list'>
-         {stateArray.map((item: string, index: number) => {
-            return (
-               <li key={index}>
-                  <button onMouseDown={() => findState(item)} onMouseUp={deselectState}>
-                     {states[item]}
-                  </button>
-               </li>
-            );
-         })}
-      </ul>
+      <section>
+         <h2>Locations</h2>
+         <ul className='state-list'>
+            {stateArray.map((item: string, index: number) => {
+               return (
+                  <li key={index}>
+                     <button onMouseDown={() => findState(item)} onMouseUp={deselectState}>
+                        {states[item]}
+                     </button>
+                  </li>
+               );
+            })}
+         </ul>
+      </section>
    );
 };
