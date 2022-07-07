@@ -1,21 +1,35 @@
 {
-    "atm":"ATM",
-    "andro":"Andromeda",
-    "asiAdmin":"ASI Admin.",
-    "beat":"BEAT & Student Activities Center",
-    "bscAdmin":"BSC Admin",
-    "copyMail":"Bronco Copy n' Mail",
-    "boxOffice":"Box office / Lost & Found",
-    "catering":"Catering Office",
-    "ce":"Conference & Events Services",
-    "gre":"Games Room, Etc.",
-    "scosc":"Student Club & Organization Service Center",
-    "ursaMin":"Ursa Minor",
-    "ursaMajor":"Ursa Major",
-    "engEvans":"England Evans",
-    "finServices":"Financial Service",
-    "centaurus":"Centaurus",
-    "roundTable":"Round Table Pizza",
-    "lyra":"Lyra",
-    "facilities":"Facilities Management"
+    "offices" : {
+        "asiAdmin":"ASI Admin.",
+        "beat":"BEAT & Student Activities Center",
+        "bscAdmin":"BSC Admin",
+        "catering":"Catering Office",
+        "ce":"Conference & Events Services",
+        "hr":"Human Resources",
+        "facilities":"Facilities Management",
+        "finServices":"Financial Service",
+        "polyPantry": "Poly Pantry",
+        "sgCabinet":"Student Government Cabinet Office",
+        "sgSenate":"Student Government Senate Chambers",
+        "mdpr":"Marketing, Design & Public Relations"
+
+    },
+    "conferenceRooms" : {
+        "andro":"Andromeda",
+        "centaurus":"Centaurus",
+        "engEvans":"England Evans",
+        "lyra":"Lyra",
+        "ursaMin":"Ursa Minor",
+        "ursaMajor":"Ursa Major"
+    },
+    "services" :{
+        "atm":"ATM",
+        "copyMail":"Bronco Copy n' Mail",
+        "boxOffice":"Box office / Lost & Found",
+        "gre":"Games Room, Etc.",
+        "scosc":"Student Club & Organization Service Center"
+    },
+    "dining": {
+        "roundTable":"Round Table Pizza"
+    }
  }

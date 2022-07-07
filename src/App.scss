@@ -60,6 +60,7 @@ main {
 		}} 
 	.food{
 		fill:$food;
+		transition: all .2s ease-out; 
 		+ .active {
 			@include setBGColorAndHover($food);
 		}
@@ -113,7 +114,7 @@ main {
   fill: whitesmoke;
   transition: all 0.2s ease-out;
 }
-.state-list {
+.room-list {
   list-style: none;
   button {
     width: 100%;
