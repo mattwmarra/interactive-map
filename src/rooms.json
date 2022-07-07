@@ -1,35 +1,36 @@
 {
-    "offices" : {
-        "asiAdmin":"ASI Admin.",
-        "beat":"BEAT & Student Activities Center",
-        "bscAdmin":"BSC Admin",
-        "catering":"Catering Office",
-        "ce":"Conference & Events Services",
-        "hr":"Human Resources",
-        "facilities":"Facilities Management",
-        "finServices":"Financial Service",
+    "offices": {
+        "asiAdmin": "ASI Admin.",
+        "beat": "BEAT & Student Activities Center",
+        "bscAdmin": "BSC Admin",
+        "catering": "Catering Office",
+        "ce": "Conference & Events Services",
+        "hr": "Human Resources",
+        "facilities": "Facilities Management",
+        "finServices": "Financial Service",
         "polyPantry": "Poly Pantry",
-        "sgCabinet":"Student Government Cabinet Office",
-        "sgSenate":"Student Government Senate Chambers",
-        "mdpr":"Marketing, Design & Public Relations"
+        "sgCabinet": "Student Government Cabinet Office",
+        "sgSenate": "Student Government Senate Chambers",
+        "mdpr": "Marketing, Design & Public Relations"
 
     },
-    "conferenceRooms" : {
-        "andro":"Andromeda",
-        "centaurus":"Centaurus",
-        "engEvans":"England Evans",
-        "lyra":"Lyra",
-        "ursaMin":"Ursa Minor",
-        "ursaMajor":"Ursa Major"
+    "conferenceRooms": {
+        "andro": "Andromeda",
+        "centaurus": "Centaurus",
+        "engEvans": "England Evans",
+        "lyra": "Lyra",
+        "ursaMin": "Ursa Minor",
+        "ursaMajor": "Ursa Major"
     },
-    "services" :{
-        "atm":"ATM",
-        "copyMail":"Bronco Copy n' Mail",
-        "boxOffice":"Box office / Lost & Found",
-        "gre":"Games Room, Etc.",
-        "scosc":"Student Club & Organization Service Center"
+    "services": {
+        "atm": "ATM",
+        "copyMail": "Bronco Copy n' Mail",
+        "boxOffice": "Box office / Lost & Found",
+        "gre": "Games Room, Etc.",
+        "scosc": "Student Club & Organization Service Center"
     },
     "dining": {
-        "roundTable":"Round Table Pizza"
+        "roundTable": "Round Table Pizza",
+        "foodCourt": "Food Court"
     }
- }
+}

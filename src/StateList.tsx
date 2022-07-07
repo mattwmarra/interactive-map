@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { dining, conferenceRooms, offices, services } from "./rooms.json";
-
+import RoomListItem from "./RoomListItem";
 export const StateList = () => {
   const diningArray: string[] = Object.keys(dining);
   const conferenceRoomArray: string[] = Object.keys(conferenceRooms);
@@ -10,6 +10,7 @@ export const StateList = () => {
   const [selectedState, setSelectedState] = useState<Element>();
 
   const findState = (stateID: string) => {
+    console.log(stateID);
     const selectedStateNode = document.querySelector(`#${stateID}`);
     if (selectedStateNode != null) {
       setSelectedState(selectedStateNode);
@@ -30,14 +31,13 @@ export const StateList = () => {
       <ul className="room-list">
         {officeArray.map((item: string, index: number) => {
           return (
-            <li key={index} className="li-dining">
-              <button
-                onMouseDown={() => findState(item)}
-                onMouseUp={deselectState}
-              >
-                {offices[item]}
-              </button>
-            </li>
+            <RoomListItem
+              index={index}
+              className={"li-dining"}
+              mouseDown={() => findState(item)}
+              mouseUp={deselectState}
+              displayText={offices[item]}
+            />
           );
         })}
       </ul>
@@ -45,14 +45,13 @@ export const StateList = () => {
       <ul className="room-list">
         {conferenceRoomArray.map((item: string, index: number) => {
           return (
-            <li key={index} className="li-dining">
-              <button
-                onMouseDown={() => findState(item)}
-                onMouseUp={deselectState}
-              >
-                {conferenceRooms[item]}
-              </button>
-            </li>
+            <RoomListItem
+              index={index}
+              className={"li-dining"}
+              mouseDown={() => findState(item)}
+              mouseUp={deselectState}
+              displayText={conferenceRooms[item]}
+            />
           );
         })}
       </ul>
@@ -60,14 +59,13 @@ export const StateList = () => {
       <ul className="room-list">
         {servicesArray.map((item: string, index: number) => {
           return (
-            <li key={index} className="li-dining">
-              <button
-                onMouseDown={() => findState(item)}
-                onMouseUp={deselectState}
-              >
-                {services[item]}
-              </button>
-            </li>
+            <RoomListItem
+              index={index}
+              className={"li-dining"}
+              mouseDown={() => findState(item)}
+              mouseUp={deselectState}
+              displayText={services[item]}
+            />
           );
         })}
       </ul>
@@ -75,14 +73,13 @@ export const StateList = () => {
       <ul className="room-list">
         {diningArray.map((item: string, index: number) => {
           return (
-            <li key={index} className="li-dining">
-              <button
-                onMouseDown={() => findState(item)}
-                onMouseUp={deselectState}
-              >
-                {dining[item]}
-              </button>
-            </li>
+            <RoomListItem
+              index={index}
+              className={"li-dining"}
+              mouseDown={() => findState(item)}
+              mouseUp={deselectState}
+              displayText={dining[item]}
+            />
           );
         })}
       </ul>

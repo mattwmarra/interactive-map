@@ -100,6 +100,7 @@ export const BSCMap = () => {
             UPPER LEVEL
           </text>
         </g>
+        <polygon className="office" />
         <polygon
           className="office"
           id="mdpr"
@@ -108,7 +109,7 @@ export const BSCMap = () => {
         />
         <path
           className="office"
-          id="" // unsure what this room is
+          id="admin" // unsure what this room is
           d="M240.5,528.1v20.5c0,0-8.5,1.8-13.6,3.6v-24.1L240.5,528.1z"
         />
         <path
@@ -159,6 +160,7 @@ export const BSCMap = () => {
           id="hr"
           points="843.9,207.8 874.2,207.8 874.2,265.5 866.5,265.3 864.4,265.3 843.9,265 	"
         />
+        <polygon className="service" />
         <polygon
           className="service"
           id="gre"
@@ -228,11 +230,19 @@ export const BSCMap = () => {
           id="lyra"
           d="M207.5,528v-13.5h-88.7v46.9h86.4h3.7c0,0,8.2-6.1,17.9-9.1v-24.1L207.5,528z"
         />
+        <path className="food" />
         <path // food court
           className="food"
+          id="foodCourt"
           d="M539.3,536.2v-35h-11.7v-29.9l-165,0.1v38.4h-28.1v33.1c0,0,11.2,0.6,16.3,10l11.3-7.8c0,0,8.2-5.1,16.3-9
 		l8.8-4.1c0,0,8.8-4,15.9-6l10-3.2c0,0,22.6-6,42.2-6.6l9.4-0.2c0,0,9.3,0.3,19.1,1.5l10.1,1.9c0,0,16.4,4.2,23.4,7.5l11.1,4.5
 		c0,0,2,0.8,4.8,2.1L539.3,536.2z"
+        />
+        <polygon // round table
+          className="food"
+          id="roundTable"
+          points="727.6,598.1 623.5,597.1 623.5,597.3 577,596.9 572,602 572,635.7 630.6,636.4 630.6,635.7 
+		727.6,635.7 	"
         />
         <text transform="matrix(1 0 0 1 335.953 529.3906)" className="st1 st15">
           {" "}
@@ -256,12 +266,7 @@ export const BSCMap = () => {
         >
           Qdoba
         </text>
-        <polygon // round table
-          className="food"
-          id="roundTable"
-          points="727.6,598.1 623.5,597.1 623.5,597.3 577,596.9 572,602 572,635.7 630.6,636.4 630.6,635.7 
-		727.6,635.7 	"
-        />
+
         <path
           className="st3"
           d="M770.3,461.6l22.8,0.2l-0.1,10.6c0,0-3-9.6-11.1-9.3c0,0-7.6-0.8-11.4,8.5L770.3,461.6z"

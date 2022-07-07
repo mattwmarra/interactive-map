@@ -1,7 +1,11 @@
-function RoomListItem() {
+function RoomListItem({ index, className, displayText, mouseDown, mouseUp }) {
   return (
-    <div>RoomListItem</div>
-  )
+    <li key={index} className={className}>
+      <button onMouseDown={mouseDown} onMouseUp={mouseUp}>
+        {displayText}
+      </button>
+    </li>
+  );
 }
 
-export default RoomListItem
+export default RoomListItem;

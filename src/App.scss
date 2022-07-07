@@ -12,7 +12,7 @@ $font-small: .4rem;
 
 main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   section {
     border-left: 0.2rem solid lightgray;
     flex: 0.3;
@@ -57,7 +57,8 @@ main {
 		transition: all .2s ease-out; 
 		+ .active {
 			@include setBGColorAndHover($conference-room);
-		}} 
+		}
+	} 
 	.food{
 		fill:$food;
 		transition: all .2s ease-out; 
