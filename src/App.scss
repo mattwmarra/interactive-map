@@ -6,11 +6,19 @@ $services: #B2E2F6;
 $office: #F69FAE;
 
 $font-small: .4rem;
+$font: 'Sora', 'sans-serif';
 .App {
   padding: 1rem;
   overflow: hidden;
 }
 
+body {
+	margin: 0;
+	background-color: #F4F5F6;
+	font-family: $font;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 main {
   display: flex;
   flex-direction: row;
@@ -25,20 +33,25 @@ main {
 	overflow-y: scroll;
 	max-height: 100vh;
     ul li{
-      height: 3rem;
+      height: fit-content;
+	  margin: .3rem auto;
     }
   }
   svg {
     flex: 0.7;
-
+	g text {
+		font-family: $font
+	}
+	
   }
 }
 
 @mixin setBGColorAndHover ($baseColor){
     fill: darken($color: $baseColor, $amount: 15);
+	$brightenedColor: lighten($color: $baseColor, $amount: 15);
+	filter: drop-shadow(0 0 15px $baseColor)
 }
 .st0{fill:none;}
-	.st1{font-family:'ArialMT';}
 	.st2{font-size:10.4064px;}
 	.st3{fill:#EDEDED;}
 	.st4{font-size:20.7004px;}
@@ -93,7 +106,6 @@ main {
 	.st27{font-size:$font-small;}
 	.st28{font-size:$font-small;}
 	.st29{font-size:$font-small;}
-	.st30{font-family:'Arial-BoldMT';}
 	.st31{font-size:$font-small;}
 	.st32{font-size:8.5144px;}
 	.st33{fill:#E28229;}
@@ -126,6 +138,7 @@ main {
     width: 100%;
     padding: 0.9rem;
     border: 0px;
+	border-radius: 2px;
     border-bottom: 2px solid darken($color: $primary-color, $amount: 10);
     font-size: 1.2rem;
     text-align: left;
