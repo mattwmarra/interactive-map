@@ -1,7 +1,7 @@
 export const BSCMap = () => {
   return (
-    <svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1224 792">
-      <g id="Layer_1_00000183248026881224528600000009764804357265619080_">
+    <svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1224 1100">
+      <g id="map">
         <rect x="815.5" y="710.5" className="st0" width="247.4" height="34.2" />
         <text transform="matrix(1 0 0 1 815.5219 719.209)" className="st1 st2">
           *To reserve space, please contact{" "}

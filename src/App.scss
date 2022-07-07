@@ -8,24 +8,29 @@ $office: #F69FAE;
 $font-small: .4rem;
 .App {
   padding: 1rem;
+  overflow: hidden;
 }
 
 main {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  max-height: 80vh;
+  margin-top: 10vh;
+  scroll-behavior: smooth;
   section {
     border-left: 0.2rem solid lightgray;
     flex: 0.3;
     text-align: center;
-    ul {
-		columns: 3;
-      height: 20vh;
-      overflow-y: scroll;
+	overflow-y: scroll;
+	max-height: 100vh;
+    ul li{
+      height: 3rem;
     }
   }
   svg {
-    width: 100%;
-    min-height: 100%;
+    flex: 0.7;
+
   }
 }
 

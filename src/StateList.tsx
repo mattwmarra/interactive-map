@@ -10,7 +10,6 @@ export const StateList = () => {
   const [selectedState, setSelectedState] = useState<Element>();
 
   const findState = (stateID: string) => {
-    console.log(stateID);
     const selectedStateNode = document.querySelector(`#${stateID}`);
     if (selectedStateNode != null) {
       setSelectedState(selectedStateNode);
@@ -25,7 +24,7 @@ export const StateList = () => {
   };
 
   return (
-    <section>
+    <section className="room-list">
       <h2>Locations</h2>
       <h3>Offices</h3>
       <ul className="room-list">
