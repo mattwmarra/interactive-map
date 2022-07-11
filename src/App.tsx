@@ -5,7 +5,7 @@ import { StateList } from "./StateList";
 function App() {
   return (
     <div className="App">
-      <h1>Bronco Student Center Interactive Map</h1>
+      <h1>Bronco Student Center Interactive Directory</h1>
       <main>
         <BSCMap />
         <StateList />

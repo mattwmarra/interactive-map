@@ -1,4 +1,12 @@
-function RoomListItem({ index, className, displayText, mouseDown, mouseUp }) {
+import { MouseEventHandler } from "react";
+
+function RoomListItem({
+  index,
+  className,
+  displayText,
+  mouseDown,
+  mouseUp,
+}: RoomListItemStruct) {
   return (
     <li key={index} className={className}>
       <button onMouseDown={mouseDown} onMouseUp={mouseUp}>
@@ -6,6 +14,14 @@ function RoomListItem({ index, className, displayText, mouseDown, mouseUp }) {
       </button>
     </li>
   );
+}
+
+interface RoomListItemStruct {
+  index: number;
+  className: string;
+  displayText: string;
+  mouseDown: MouseEventHandler;
+  mouseUp: MouseEventHandler;
 }
 
 export default RoomListItem;
